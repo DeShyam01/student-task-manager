@@ -1,18 +1,17 @@
 import React from 'react'
 import Logo from './Logo'
 import '../styles/components/Header.css'
-import userIcon from '../assets/user-icon.webp'
 import Searchbar from './Searchbar'
+import Statbar from './Statbar'
+import AccountIcon from './AccountIcon'
 
 const Header = () => {
   return (
     <div className='header'>
       <Logo />
       <Searchbar />
-      <div className="user-info">
-        <p className="username">john doe</p>
-        <img src={userIcon} alt="user-icon" />
-      </div>
+      <Statbar />
+      <AccountIcon />
     </div>
   )
 }

@@ -1,0 +1,13 @@
+.home {
+    width: 75%;
+    height: 100%;
+    margin-left: 25%;
+}
+
+@media (max-width: 426px) {
+    .home {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+}

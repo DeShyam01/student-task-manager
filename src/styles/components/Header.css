@@ -7,16 +7,5 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 16px;
-}
-
-.header .user-info {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.header .user-info img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+    color: #f3f3f3;
 }
