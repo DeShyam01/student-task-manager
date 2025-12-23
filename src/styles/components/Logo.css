@@ -1,0 +1,8 @@
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(45deg, #4A90E2, #4c9cf7bc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
