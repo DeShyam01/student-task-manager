@@ -17,11 +17,9 @@ const App = () => {
 
   return (
     <div className="App">
-      <Header />
-      <section>
         <Aside />
+        <Header />
         <Content />
-      </section>
     </div>
   )
 }

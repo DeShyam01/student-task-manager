@@ -1,16 +1,14 @@
 import React from 'react'
-import Logo from './Logo'
 import '../styles/components/Header.css'
 import Searchbar from './Searchbar'
-import Statbar from './Statbar'
 import AccountIcon from './AccountIcon'
+import AddTask from './AddTask'
 
 const Header = () => {
   return (
     <div className='header'>
-      <Logo />
       <Searchbar />
-      <Statbar />
+      <AddTask />
       <AccountIcon />
     </div>
   )

@@ -13,6 +13,21 @@
   -moz-osx-font-smoothing: grayscale;
 } */
 
+:root {
+  --primary: #7C3AED;
+  
+  --bg-main: hsl(0,0,90%);
+  --bg-surface: hsl(0,0,95%);
+  --bg-light: hsl(0,0,100%);
+  
+  --text-main: #111827;
+  --text-secondary: #6B7280;
+  
+  --success: #059669;
+  --warning: #D97706;
+  --danger: #EF4444;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -22,4 +37,5 @@
 body{
   width: 100vw;
   height: 100dvh;
+  background-color: var(--bg-main);
 }
