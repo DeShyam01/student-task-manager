@@ -16,16 +16,25 @@
 :root {
   --primary: #7C3AED;
   
-  --bg-main: hsl(0,0,90%);
-  --bg-surface: hsl(0,0,95%);
-  --bg-light: hsl(0,0,100%);
+  --bg-main: hsl(0,0,86%);
+  --bg-surface: hsl(0,0,88%);
+  --bg-light: hsl(0,0,93%);
   
-  --text-main: #111827;
-  --text-secondary: #6B7280;
+  --text-main: hsl(0, 0%, 5%);
+  --text-secondary: hsl(0, 0%, 30%);
   
   --success: #059669;
   --warning: #D97706;
   --danger: #EF4444;
+}
+
+[data-theme="dark"] {
+  --bg-main: hsl(0, 0%, 7%);
+  --bg-surface: hsl(0, 0%, 12%);
+  --bg-light: hsl(0, 0%, 14%);
+
+  --text-main: hsl(0, 0%, 95%);
+  --text-secondary: hsl(0, 0%, 75%);
 }
 
 *{
@@ -38,4 +47,5 @@ body{
   width: 100vw;
   height: 100dvh;
   background-color: var(--bg-main);
+  color: var(--text-main);
 }

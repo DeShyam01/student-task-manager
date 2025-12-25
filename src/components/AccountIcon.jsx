@@ -5,7 +5,7 @@ import '../styles/components/AccountIcon.css'
 const AccountIcon = () => {
   return (
     <div className='account-icon'>
-        <p className="username">john doe</p>
+        <p className="username">John Doe</p>
         <img src={userIcon} alt="user-icon" />
     </div>
   )
