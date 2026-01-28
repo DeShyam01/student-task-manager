@@ -1,0 +1,69 @@
+.task-card {
+    background-color: var(--bg-surface);
+    border-radius: 8px;
+    border: 0.5px solid var(--primary);
+    box-shadow: 0.5px 0.5px 10px 0 var(--primary);
+    padding: 0.5rem;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 3;
+    position: relative;
+}
+
+.task-card .card-status {
+    color: #ffffff;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.task-card .card-status p{
+    font-size: 1rem;
+    text-align: center;
+}
+
+.task-card .card-heading {
+    font-size: 1.5em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.task-card .task-card-description {
+    font-size: 1em;
+    color: var(--text-secondary);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.task-card .card-status.Pending {
+    background-color: var(--warning);
+}
+
+.task-card .card-status.Completed {
+    background-color: var(--success);
+}
+
+.task-card .card-status.Overdue {
+    background-color: var(--danger);
+}
+
+.task-card .card-date{
+    font-size: 0.8em;
+    color: var(--text-secondary);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    top: 99%;
+    right: 2%;
+    transform: translate(-2%,-99%);
+}
+
+.task-card .delete{
+    background: none;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}

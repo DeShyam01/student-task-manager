@@ -15,7 +15,7 @@ const Aside = () => {
     <div className='aside'>
       <Logo />
       <ul>
-        <li><Link to="/"><img src={dashboardicon} alt="" />Dashboard</Link></li>
+        <li><Link to="/dashboard"><img src={dashboardicon} alt="" />Dashboard</Link></li>
         <li><Link to="/tasks"><img src={alltasksicon} alt="" />All Tasks</Link></li>
         <li><Link><img src={todayicon} alt="" />Today</Link></li>
         <li><Link><img src={upcomingicon} alt="" />Upcoming</Link></li>
